@@ -6,9 +6,8 @@ import mysql.connector
 # Connect to the database.
 db = mysql.connector.connect(
     host='localhost',
-    passwd='Password(2540)',
     user='root',
-    port=33061,
+    passwd='Password(2540)',
     database='BookBinderDB'
 )
 
