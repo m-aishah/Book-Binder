@@ -1,6 +1,6 @@
 # 📚 Book Binder – A Book Tracking System
 
-![Book Binder Logo](./images/READMEImages/logo.png)
+![Book Binder Logo](./images/READMEImages/Logo.png)
 
 Welcome to **Book Binder**! This is my awesome project where I bring order to the chaotic world of book tracking. Whether you're an avid reader or an author, this app is here to make your life easier.
 
@@ -35,7 +35,7 @@ As a book lover, I kept forgetting which books I had read. So, I built **Book Bi
 
 ## Why Python? 🐍
 
-I chose Python because it's easy to work with, has tons of community support, and plays nicely with MySQL. Plus, Python is just plain awesome.
+I chose Python because it's easy to work with, has tons of community support, and plays nicely with MySQL. Plus, at the time I wanted to learn to use tkinter, so what better way to learn than to create something with it.
 
 ## Database Stuff 💾
 
@@ -52,13 +52,11 @@ Here's how the database is structured:
 - **Book**: (BookID, Title, AuthorID, YearReleased, Genre, CreatedAt, UpdatedAt)
 - **ReaderBookshelf**: (BookID, ReaderID, Rating, DateInserted)
 
-You can check out the SQL queries I used in the [database_queries.sql](path_to_queries_file).
+You can check out the SQL queries I used in the [MySQL Queries](./MySQL%20Queries/create_queries.sql).
 
-![ER Diagram](path_to_er_diagram_image)
+![ER Diagram](./images/READMEImages/ERDiagram.png)
 
 ## What It Can Do 🛠️
-
-Here's a list of all the cool stuff this app can do:
 
 - **Add Data**: Sign up as a reader or author, and add books to your shelf.
 - **Delete Data**: Remove books from your shelf.
@@ -103,19 +101,23 @@ Make sure you have the following installed:
 To get started, just run the `landing_page.py` module. Check out some screenshots:
 
 1. **Landing Page**:
-   ![Landing Page](path_to_landing_page_image)
+   ![Landing Page](./images/READMEImages/LandingPage.png)
 
 2. **Sign Up Prompt**:
-   ![Sign Up Prompt](path_to_sign_up_prompt_image)
+   ![Sign Up Prompt](./images/READMEImages/SignUp.png)
 
-3. **Reader Bookshelf**:
-   ![Reader Bookshelf](path_to_reader_bookshelf_image)
+3. **Sign In Prompt**:
+   ![Sign In Prompt](./images/READMEImages/LoginReader.png)
+   ![Sign In Prompt](./images/READMEImages/LoginAuthor.png)
 
-4. **Insert New Book**:
-   ![Insert New Book](path_to_insert_new_book_image)
+4. **Reader Bookshelf**:
+   ![Reader Bookshelf](./images/READMEImages/ReaderBookshelf.png)
 
-5. **Author's Dashboard**:
-   ![Author's Dashboard](path_to_authors_dashboard_image)
+5. **Insert/Delete/Update Book**:
+   ![Insert New Book](./images/READMEImages/UpdateBookshelf.png)
+
+6. **Author's Dashboard**:
+   ![Author's Dashboard](./images/READMEImages/AuthorDashboard.png)
 
 ## My Thoughts 💭
 
